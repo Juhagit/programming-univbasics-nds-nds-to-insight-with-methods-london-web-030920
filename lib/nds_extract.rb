@@ -25,7 +25,7 @@ result = {}
  i = 0
   while i < nds.size do
     director = nds[i]
-    result[ohjaaja[:name]] = gross_for_director(director)
+    result[director[:name]] = gross_for_director(director)
     i += 1
   end
   result
