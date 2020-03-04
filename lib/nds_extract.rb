@@ -9,8 +9,8 @@ pp directors_database
 def gross_for_director(director_data)
   
  total=0
-  director_data[:movies].each do |world_gross|
-    total += world_gross[:worldwide_gross]
+  director_data[:movies].each do |gross|
+    total += gross[:worldwide_gross]
   end
   total
 end
